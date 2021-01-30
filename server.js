@@ -26,7 +26,7 @@ app.use(function(req, res, next) {
     next();
   });
 
-// display a message for root path to show the API is working`.
+// display a message for root path to show the API is working.
 app.get('/', (req, res) =>{
     res.send ('Select a collection, e.g., /collection/messages')
 });
